@@ -1,0 +1,36 @@
+# Mount points
+type modem_file, file_type;
+type modem_vendor_file, file_type, vendor_file_type;
+type splash_data_file, file_type;
+type hisee_data_file, file_type;
+
+type hisecd_socket, file_type;
+
+# data/vendor/*
+type vendor_bt_data_file, file_type, data_file_type;
+type vendor_camera_data_file, file_type, data_file_type;
+type hi110x_data_file, file_type, data_file_type;
+type vendor_log_file, file_type, data_file_type;
+type mediadrm_vendor_data_file, file_type, data_file_type;
+type nfc_vendor_data_file, file_type, data_file_type;
+type teecd_data_file, file_type, data_file_type;
+type wifi_vendor_data_file, file_type, data_file_type;
+type wifi_vendor_wpa_socket, file_type, data_file_type;
+
+type sysfs_sensors, sysfs_type, fs_type;
+type sysfs_pg, sysfs_type, fs_type;
+type sysfs_hisee, sysfs_type, fs_type;
+type modem_state_file, sysfs_type, fs_type;
+type sysfs_touchscreen, sysfs_type, fs_type;
+type sysfs_cpufreq, sysfs_type, fs_type;
+type sysfs_eas, sysfs_type, fs_type;
+type sysfs_init_watchdog, sysfs_type, fs_type;
+type sysfs_hungtask_vmheart, sysfs_type, fs_type;
+type vendor_sysfs_graphics, sysfs_type, fs_type;
+type sysfs_framebuffer, sysfs_type, fs_type;
+
+type hi110x_vendor_file, file_type, vendor_file_type;
+type hwemerffu_fw_file, file_type, vendor_file_type;
+type isp_vendor_file, file_type, vendor_file_type;
+type hifi_vendor_file, file_type, vendor_file_type;
+type ncfg_nv_file, file_type, vendor_file_type;
