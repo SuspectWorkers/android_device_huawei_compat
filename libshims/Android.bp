@@ -32,32 +32,13 @@ cc_library_shared {
 }
 
 cc_library_shared {
-    name: "libshim_emcom",
+    name: "libui_shim",
+    srcs: ["libui_shim.cpp"],
     shared_libs: [
-        "libcutils_shim",
-        "libtinyxml2_shim"
-    ],
-}
-
-cc_library_shared {
-    name: "guivnd",
-    shared_libs: [
-        "libgui_vendor",
-        "libsensor_vendor"
-    ],
-    vendor: true,
-}
-
-cc_library_shared {
-    name: "libshim_hwcam",
-    shared_libs: [
-        "libgui_vendor",
         "libui",
-        "libshim_ui",
-        "libui_shim",
-        "libtinyxml2_shim"
+        "libutils",
     ],
-    vendor: true,
+    vendor_available: true,
 }
 
 cc_library_shared {

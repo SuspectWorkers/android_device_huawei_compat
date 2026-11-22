@@ -23,6 +23,6 @@ vendor.huawei.hardware.radio::IRadio                                            
 vendor.huawei.hardware.radio.ims::IRadioIms                                     		u:object_r:hal_telephony_hwservice:s0
 vendor.huawei.hardware.radio.chr::IRadioChr                                     		u:object_r:hal_telephony_hwservice:s0
 vendor.huawei.hardware.radio.deprecated::IOemHook                               		u:object_r:hal_telephony_hwservice:s0
-vendor.huawei.hardware.tp::ITouchscreen                                     			u:object_r:hal_lineage_touch_hwservice:s0
+vendor.huawei.hardware.tp::ITouchscreen                                     			u:object_r:hal_touchscreen_hwservice:s0
 vendor.huawei.hardware.wifi::IHwWifiExt                                         		u:object_r:hal_wifi_hwservice:s0
 vendor.huawei.hardware.wifi.supplicant::ISupplicant 						u:object_r:hal_wifi_supplicant_hwservice:s0
